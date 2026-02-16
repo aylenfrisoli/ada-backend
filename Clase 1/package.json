@@ -1,0 +1,12 @@
+{
+  "name": "clase-1",
+  "version": "1.0.0",
+  "description": "iniciando en node",
+  "license": "ISC",
+  "author": "Aylen Frisoli",
+  "type": "commonjs",
+  "main": "prueba.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
