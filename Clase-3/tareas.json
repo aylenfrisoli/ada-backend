@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "descripcion": "",
+    "completada": true
+  },
+  {
+    "id": 2,
+    "descripcion": "Repasar la clase!",
+    "completada": false
+  },
+  {
+    "id": 3,
+    "descripcion": "Preparar la cena",
+    "completada": false
+  }
+]
