@@ -1,0 +1,34 @@
+// Ejercicio 1: Creación y Manipulación de un Objeto JSON
+// 1.Dentro de la carpeta ADA_TRABAJOS, crea una nueva carpeta llamada
+// clase2.
+// 2.En la carpeta clase2, crea un archivo JavaScript llamado actividad1.js.
+// 3.En este archivo, crea un objeto JSON que represente un libro. El objeto
+// debe tener las siguientes propiedades: titulo, autor, año, genero (puede
+// ser un array de géneros).
+// Instrucciones:
+// • Muestra en la consola el título y el autor del libro.
+// • Actualiza el año del libro a un valor más reciente.
+// • Añade una nueva propiedad llamada páginas que indique el número
+// de páginas del libro.
+// • Muestra el objeto actualizado en la consola.
+
+// Creación del objeto JSON que representa un libro
+const libro = {
+    titulo: "Cien Años de Soledad",
+    autor: "Gabriel García Márquez",
+    año: 1967,
+    genero: ["Realismo Mágico", "Ficción"]
+};
+
+// Mostrar en la consola el título y el autor del libro
+console.log(`Título: ${libro.titulo}`);
+console.log(`Autor: ${libro.autor}`);
+
+// Actualizar el año del libro a un valor más reciente
+libro.año = 2020;
+
+// Añadir una nueva propiedad llamada páginas que indique el número de páginas del libro
+libro.páginas = 417;
+
+// Mostrar el objeto actualizado en la consola
+console.log(libro);
